@@ -15,6 +15,8 @@
 		6468970B24A430AB002A7F76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6468970924A430AB002A7F76 /* LaunchScreen.storyboard */; };
 		6468971624A430AB002A7F76 /* timer_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6468971524A430AB002A7F76 /* timer_appTests.swift */; };
 		6468972124A430AB002A7F76 /* timer_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6468972024A430AB002A7F76 /* timer_appUITests.swift */; };
+		6468972F24A430E0002A7F76 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6468972E24A430E0002A7F76 /* Helper.swift */; };
+		6468973124A43815002A7F76 /* TimerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6468973024A43815002A7F76 /* TimerManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		6468971C24A430AB002A7F76 /* timer-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "timer-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6468972024A430AB002A7F76 /* timer_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timer_appUITests.swift; sourceTree = "<group>"; };
 		6468972224A430AB002A7F76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6468972E24A430E0002A7F76 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		6468973024A43815002A7F76 /* TimerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				646896FE24A430AA002A7F76 /* AppDelegate.swift */,
 				6468970024A430AA002A7F76 /* SceneDelegate.swift */,
 				6468970224A430AA002A7F76 /* ContentView.swift */,
+				6468972E24A430E0002A7F76 /* Helper.swift */,
+				6468973024A43815002A7F76 /* TimerManager.swift */,
 				6468970424A430AB002A7F76 /* Assets.xcassets */,
 				6468970924A430AB002A7F76 /* LaunchScreen.storyboard */,
 				6468970C24A430AB002A7F76 /* Info.plist */,
@@ -270,6 +276,8 @@
 				646896FF24A430AA002A7F76 /* AppDelegate.swift in Sources */,
 				6468970124A430AA002A7F76 /* SceneDelegate.swift in Sources */,
 				6468970324A430AA002A7F76 /* ContentView.swift in Sources */,
+				6468973124A43815002A7F76 /* TimerManager.swift in Sources */,
+				6468972F24A430E0002A7F76 /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
