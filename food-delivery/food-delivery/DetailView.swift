@@ -11,11 +11,15 @@ import SwiftUI
 struct DetailView: View {
     
     var currentCategory: Categories
+    @State private var showOrderSheet = false
     
     var body: some View {
         List(foodData.filter({$0.category == currentCategory})) { food in
-            DetailRow(food: food)
+            DetailRow(food: food, showOrderSheet: self.$showOrderSheet)
         }.navigationBarTitle(Text(categoryString(for: currentCategory)), displayMode: .inline)
+            .sheet(isPresented: $showOrderSheet) {
+                OrderForm(showOrderSheet: self.$showOrderSheet)
+        }
     }
     
     func filterData(by category: Categories) -> [Food] {

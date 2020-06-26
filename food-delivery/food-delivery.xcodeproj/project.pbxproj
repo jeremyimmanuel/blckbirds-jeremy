@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		643AC31F24A67943000671BA /* OrderForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643AC31E24A67943000671BA /* OrderForm.swift */; };
 		64CBDEC224A47A4D0076B8A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CBDEC124A47A4D0076B8A3 /* AppDelegate.swift */; };
 		64CBDEC424A47A4D0076B8A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CBDEC324A47A4D0076B8A3 /* SceneDelegate.swift */; };
 		64CBDEC624A47A4D0076B8A3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CBDEC524A47A4D0076B8A3 /* ContentView.swift */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		643AC31E24A67943000671BA /* OrderForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderForm.swift; sourceTree = "<group>"; };
 		64CBDEBE24A47A4D0076B8A3 /* food-delivery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "food-delivery.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64CBDEC124A47A4D0076B8A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		64CBDEC324A47A4D0076B8A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				64CBDEC524A47A4D0076B8A3 /* ContentView.swift */,
 				64D6FA9824A537D1001F5300 /* DetailRow.swift */,
 				64D6FA9A24A541A6001F5300 /* DetailView.swift */,
+				643AC31E24A67943000671BA /* OrderForm.swift */,
 				64CBDEF124A47FB00076B8A3 /* Food.swift */,
 				64D6FA9624A536E5001F5300 /* FoodData.swift */,
 				64CBDEC724A47A4D0076B8A3 /* Assets.xcassets */,
@@ -281,6 +284,7 @@
 			files = (
 				64CBDEC224A47A4D0076B8A3 /* AppDelegate.swift in Sources */,
 				64CBDEF224A47FB00076B8A3 /* Food.swift in Sources */,
+				643AC31F24A67943000671BA /* OrderForm.swift in Sources */,
 				64CBDEC424A47A4D0076B8A3 /* SceneDelegate.swift in Sources */,
 				64D6FA9B24A541A6001F5300 /* DetailView.swift in Sources */,
 				64D6FA9724A536E5001F5300 /* FoodData.swift in Sources */,
